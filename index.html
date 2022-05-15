@@ -18,31 +18,52 @@
     .sun{
     background-color:yellow;
     }
+    nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    border: black solid 3px;
+    padding: 5px;
+    border-radius: 10px;
+}
+nav a:hover{
+    background-color: lightblue;
+}
+    
     </style>
   </head>
   
   <body>
-    <header>
+       
+    
+
+    
+   <header>
     <p>ВЫ ЗАШЛИ ПОД ИМЕНЕМ <span id="kto"> </span></p>
-      
+     <nav>
+     <a href="#">Главная</a>
+     <a href="#">Информация</a>
+     <a href="#">Сведения</a>
+     <a href="#">Контакты</a>
+ </nav>
     </header>
     
     
-    
-<h1>HAHAHAHHAHAHAHHAHAHAHH</h1>
+    <h1>HAHAHAHHAHAHAHHAHAHAHH</h1>
   lololol
   <img width="100px" src="sunky.jpg">
   <h1 class="huh">Sunky</h1>
     <div class="shar"></div>
     <h1 class="sun">Sun</h1>
     <div class="shir"></div>
-   
 </body>
+  
 <script>
   let imya = prompt("Введи своё имя");
   let login = document.getElementById('kto');
   login.innerText = imya;
-  
 </script>
 
 
